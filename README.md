@@ -1,8 +1,11 @@
 lib/
 ├── main.dart                    # Entry point chính
+
 ├── models/                      # Data models & configuration
 │   ├── game_config.dart        # Game configuration constants
 │   └── score.dart              # Score management logic
+
+
 ├── components/                  # Game components
 │   ├── paddle.dart             # Abstract base Paddle class
 │   ├── player_paddle.dart      # Player-controlled paddle
